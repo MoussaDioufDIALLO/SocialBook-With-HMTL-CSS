@@ -23,32 +23,52 @@
                 <img src="images/search.png">
                 <input type="text" placeholder="Search">
             </div>
-            <div class="nav-user-icon online">
+            <div class="nav-user-icon online" onclick="settingsMenuToggle()">
                     <img src="images/profile-pic.png">
             </div>
         </div>
           <!-----------------seetings-menu--------------->
-          <div class="left-sidebar">
-        <div class="settings-menu">
-
-            <div class="user-profile">
-                <img src="images/profile-pic.png">
-                <div>
-                    <p>John Nicholson</p>
-                    <a href="#">See your profile</a>
+        <div class="left-sidebar">
+         <div class="settings-menu">
+            <div class="settings-menu-inner">
+                <div class="user-profile">
+                    <img src="images/profile-pic.png">
+                    <div>
+                        <p>John Nicholson</p>
+                        <a href="#">See your profile</a>
+                    </div>
+                </div>
+                <hr>
             </div>
-            </div>
-
             <div class="user-profile">
                 <img src="images/feedback.png">
                 <div>
                     <p>Give Feedback</p>
                     <a href="#">Help us to improve the new design</a>
+                </div>
             </div>
+            <hr>
+            <div class="settings-links">
+                <img src="images/setting.png" class="settings-icon">
+                <a href="#">Settings & Privacy <img src="images/arrow.png" width="10px"></a>
             </div>
-            
-        </div>
 
+            <div class="settings-links">
+                <img src="images/help.png" class="settings-icon">
+                <a href="#">Help & Support <img src="images/arrow.png" width="10px"></a>
+            </div>
+
+            <div class="settings-links">
+                <img src="images/display.png" class="settings-icon">
+                <a href="#">Display & Accessibility <img src="images/arrow.png" width="10px"></a>
+            </div>
+
+            <div class="settings-links">
+                <img src="images/logout.png" class="settings-icon">
+                <a href="#">Logout <img src="images/arrow.png" width="10px"></a>
+            </div>
+        </div>
+      </div>
     </nav>
 
     <div class="container">
@@ -211,7 +231,8 @@
                     </div>
                     <a href="#"><i class="fas fa-ellipsis-v"></i></a>
                 </div>
-                <p class="post-text">Subscribe <span>@mxzvrt </span>page on instagralmto improve your level on website developmnt and UI designs.
+                <p class="post-text">Subscribe <span>@mxzvrt </span>page on instagram
+                    to improve your level on website developmnt and UI designs.
                     <a href="#">Lxrd_mxzvrt #mxzvrt_dev</a>
                 </p>
                 <img src="images/feed-image-4.png" class="post-img">
@@ -322,6 +343,8 @@
     <div class="footer">
         <p>Copyright 2023-mxzvrt dev</p>
     </div>
+
+    <script src="script.js"></script>
 
 </body>
 </html>
